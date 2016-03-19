@@ -33,7 +33,7 @@
    </xsl:template>
    
 	<xsl:template match="member">
-		<div style="width:300px;line-height:5px;margin:20px;float:left">
+		<div style="width:200px;line-height:5px;margin:20px;float:left">
 			<p>姓名：<xsl:value-of select="name"/></p><br />
 			<p>性别：<xsl:value-of select="sex"/></p><br />
 			<p>学号：<xsl:value-of select="number"/></p><br />
