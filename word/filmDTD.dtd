@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT FilmLibrary (Film+)>
+<!ELEMENT Film (title, releasedate, country, type+, language+, movietime, score?, director, actor+, overview)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT releasedate (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT movietime (#PCDATA)>
+<!ELEMENT score (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT actor (#PCDATA)>
+<!ELEMENT overview (#PCDATA)>
+<!ATTLIST Film
+	download CDATA #REQUIRED
+>

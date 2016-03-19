@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="css/film.css"?>
+<FilmLibrary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///E:/%e4%bd%9c%e4%b8%9a/XML/%e5%ae%9e%e9%aa%8c1/filmSchema.xsd">
+	<Film download="http://www.ygdy8.com/html/gndy/dyzz/20160228/50348.html">
+		<title>奔爱</title>
+		<releasedate>2016</releasedate>
+		<country>中国</country>
+		<type>剧情</type>
+		<type>爱情</type>
+		<language>普通话</language>
+		<movietime>136</movietime>
+		<director>张一白</director>
+		<actor>章子怡</actor>	
+		<actor>彭于晏</actor>
+		<actor>佟丽娅</actor>
+		<overview>苏乐琪（章子怡 饰）和寿司师傅冯裕健（彭于晏 饰）相遇于日本小樽，刚分手的乐琪能否治愈情伤？ 矛盾重重的夫妻周宏毅（张译 饰）和唐静（梁静 饰）带着女儿彤彤（李一情 饰）游览伊斯坦布尔，女儿的走失让小夫妻意识到彼此的珍贵。假结婚的 陆杰（王千源 饰）和关月（吴莫愁 饰）绝症面前开始了美国66号公路的“逃亡”之旅，假夫妻的真恋爱让人唏嘘。为了治愈情伤来到挪威尤坎小镇的莉莉（陈妍希 饰），犹如挪威寒冬般尘封的心能否被一缕人造阳光所温暖？ 回到爱情开始的塞班岛去结束爱情的叶依依（佟丽娅 饰），如何面对丈夫的情人白茄子（周冬雨 饰）的纠缠？</overview>
+	</Film>
+
+	<Film download="http://www.dytt8.net/html/gndy/dyzz/20160221/50273.html">
+		<title>老炮儿</title>
+		<releasedate>2015</releasedate>
+		<country>中国</country>
+		<type>剧情</type>
+		<type>动作</type>
+		<type>犯罪</type>
+		<language>普通话</language>
+		<movietime>137</movietime>
+		<score>7</score>
+		<director>管虎 Hu Guan </director>
+		<actor>冯小刚 Xiaogang Feng ....六爷 </actor>
+		<actor>李易峰 Yifeng Li ....晓波 </actor>
+		<actor>吴亦凡 Kris Wu ....小飞</actor>
+		<actor>张涵予 Hanyu Zhang ....闷三儿 </actor>
+		<actor>许晴 Qing Xu ....话匣子 </actor>
+		<overview>老炮儿在北京话中，专指提笼遛鸟，无所事事的老混混儿。 
+
+　　六爷（冯小刚 饰）就曾是”横行“老北京的老炮儿之一，如今过着悠闲自得的日子，却不想自己的儿子晓波（李易峰 饰）被卷入了与“小爷”小飞（吴亦凡 饰）的纠纷中。六爷试图出面摆平这起纠纷，并找来了昔日老友闷三儿（张涵予 饰）、话匣子（许晴 饰）、灯罩儿（刘桦 饰）帮忙，却发现这个时代已经有了一群新的“话事人”，自己这个顽主的江湖地位已经动摇，并且以往固守的生活方式已经渐渐被时代所抛弃，廉颇老矣尚能饭否？</overview>
+	</Film>
+	<Film download="http://www.ygdy8.net/html/gndy/dyzz/20160302/50337.html">
+		<title>过年好</title>
+		<releasedate>2016</releasedate>
+		<country>中国</country>
+		<type>剧情</type>
+		<language>普通话</language>
+		<movietime>106</movietime>
+		<director>高群书 Qunshu Gao</director>
+		<actor>赵本山 Benshan Zhao 老李</actor>	
+		<actor>闫妮 Ni Yan 李羊朵</actor>
+		<actor>热依扎 Rayza 女儿</actor>
+		<overview>独居老人老李（赵本山 饰）只有逢年过节才能见到北漂的女儿李羊朵（闫妮 饰）和远在美国留学的外孙女莉莉（热依扎 饰）。盼星星盼月亮的盼了个团圆，也盼来了外孙女的男友Aaron（炎亚纶 饰），没想到啼笑皆非的故事也就从这团圆开始了</overview>
+	</Film>
+	<Film download="http://www.ygdy8.net/html/gndy/dyzz/20151228/49817.html">
+		<title>陪安东尼度过漫长岁月</title>
+		<releasedate>2015</releasedate>
+		<country>中国</country>
+		<type>剧情</type>
+		<type>爱情</type>
+		<language>普通话</language>
+		<movietime>121</movietime>
+		<director>秦小珍 Janet Chun </director>
+		<actor>刘畅 Chang Liu 安东尼</actor>
+		<actor>白百何 Fay Bai 小樱</actor>
+		<actor>唐艺昕 Yi Xin Tang 小萱</actor>
+		<actor>金世佳 Shijia Jin 方杰</actor>
+		<actor>白举纲 Pax Congo 家明</actor>
+		<actor>宋芸桦 Vivian Sung 小黑</actor>
+		<overview>影片是关于一个男生从20岁到23岁、从大学到工作、从国内到国外的生活片段及内心感悟。安东尼是一个不特别、不会说很酷话的普通男生，在20岁的时候从大连留学墨尔本，并遇到了小萱、家明、小黑、Pierre等一众好友。在这漫长岁月里，发生了一系列或浪漫、或甜蜜、或可笑、或感人的故事。而他同时也记挂着远在日本的小樱，时隔两年后在东京相见的他们，会发生怎样的故事…… </overview>
+	</Film>
+	<Film download="http://www.ygdy8.net/html/gndy/dyzz/20160204/50124.html">
+		<title>寻龙诀</title>
+		<releasedate>2015</releasedate>
+		<country>中国</country>
+		<type>剧情</type>
+		<type>动作</type>
+		<type>奇幻</type>
+		<type>冒险</type>
+		<language>普通话</language>
+		<movietime>125</movietime>
+		<director>乌尔善</director>
+		<actor>陈坤 Kun Chen ....胡八一</actor>
+		<actor>黄渤 Bo Huang ....王凯旋</actor>
+		<actor>舒淇 Hsu Chi ....Shirley杨</actor>
+		<actor>杨颖 Angela Baby ....丁思甜</actor>
+		<actor>夏雨 Yu Xia ....大金牙</actor>
+		<overview>上世纪80年代末，胡八一（陈坤 饰）、王凯旋（黄渤 饰）与Shirley杨（舒淇 饰）在美国打算金盆洗手，本来叱咤风云的摸金校尉沦为街头小贩被移民局追得满街跑。就在此时，意外发现20年前死在草原上的初恋对象丁思甜（杨颖 饰）可能还活着，胡八一、王凯旋、Shirley杨决定再入草原千年古墓…… </overview>
+	</Film>
+
+</FilmLibrary>
