@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="filmXSL.xsl"?>
+<Group id="11">
+	<section>
+	<groupName>两河流域</groupName>
+	<topic>电影</topic>
+	<members>
+		<member id="no1">
+			<name>马宁</name>
+			<sex>女</sex>
+			<number>71113207</number>
+		</member>
+		<member id="no1">
+			<name>张伟栋</name>
+			<sex>男</sex>
+			<number>71113137</number>
+		</member>
+		<member id="no1">
+			<name>丁策</name>
+			<sex>男</sex>
+			<number>71113117</number>
+		</member>
+	</members>
+	</section>
+</Group>

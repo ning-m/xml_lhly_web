@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="FilmLibrary">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Film" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Film">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="title" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="releasedate" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="country" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="type" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="language" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="movietime" minOccurs="1" maxOccurs="1"/>
+				<xs:element ref="score" minOccurs="0" maxOccurs="1"/>
+				<xs:element ref="director" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="actor" minOccurs="1" maxOccurs="unbounded"/>
+				<xs:element ref="overview" minOccurs="1" maxOccurs="1"/>
+			</xs:sequence>
+			<xs:attribute name="download">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:whiteSpace value="preserve"/>
+					</xs:restriction>
+				</xs:simpleType>
+		</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="title" type="xs:string"/>
+	<xs:element name="releasedate" type="xs:int"/>
+	<xs:element name="country" type="xs:string"/>
+	<xs:element name="type" type="xs:string"/>
+	<xs:element name="language" type="xs:string"/>
+	<xs:element name="movietime" type="xs:int"/>
+	<xs:element name="score" type="xs:int"/>
+	<xs:element name="director" type="xs:string"/>
+	<xs:element name="actor" type="xs:string"/>
+	<xs:element name="overview" type="xs:string"/>
+</xs:schema>

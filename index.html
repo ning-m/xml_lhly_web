@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XML小组-两河流域</title>
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,700,800,600,300,200' rel='stylesheet' type='text/css'>
+<link href="css/responsive.css" rel="stylesheet" media="screen" type="text/css">
+<link rel="stylesheet" href="sidr/stylesheets/jquery.sidr.dark.css">
+<script src="js/jquery.min.js"></script>
+<script src="sidr/jquery.sidr.min.js"></script>
+</head>
+
+<body>
+<div class="banner">
+  <div class="container">
+    <div class="header-text">
+ 	<div class="fa fa-map-marker fa-3x"></div>
+      <h2 style="font-size: 3em;">两河流域</h2><br /><br />
+    </div>
+  </div>
+</div>
+<div class="about" id="about">
+  <div class="container">
+    <h3 class="text-head">小组成员</h3>
+    <div class="about-section">
+      <ul>
+        <li> <a href="#">
+          <div class="story-img" style="margin:10px"><img src="images/portrait-mn.jpg"></img></div>
+          <div class="story-box">
+            <h4>马宁</h4>
+            
+            <p>
+            组长<br />
+            性别：女<br />
+            学号：711113207<br />
+            </p>
+          </div>
+          </a> </li>
+        <li> <a href="#">
+          <div class="story-img" style="margin:10px"><img src="images/portrait_zwd.jpg"></img></div>
+          <div class="story-box">
+            <h4>张伟栋</h4>
+             
+            
+            <p>性别：男<br />学号：711113137</p>
+          </div>
+          </a> </li>
+        <li> <a href="#">
+          <div class="story-img" style="margin:10px"><img src="images/portrait-dc.jpg"></img></img></div>
+          <div class="story-box">
+            <h4> 丁策</h4>
+             
+           
+            <p> 性别：男<br />学号：711113117</p>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="services" id="services">
+  <div class="container">
+    <h3 class="text-head">工作进度</h3>
+    <div class="features-section">
+      <ul>
+        <li>
+          <div class="feature-icon icon1"></div>
+          <h4>实验任务1</h4>
+          <p>
+          	项目日志：<br/>
+          	小组信息网站：2016/3/3<br />
+          	树型XML信息模型：2016/3/7<br />
+          	<a href="word/XML.png" target="_blank">XML信息模型</a>
+          	<a href="word/XML.docx">下载</a><br/>
+          	DTD文档：2016/3/7<br />
+          	<a href="word/DTD.png" target="_blank">DTD</a>
+          	<a href="word/filmDTD.dtd">下载</a><br />
+          	Schema文档：2016/3/10<br />
+          	
+          	<a href="word/schema.png" target="_blank">Schema</a>
+          	<a href="word/filmSchema.xsd">下载</a><br />
+          	</p>
+        </li>
+        <li>
+          <div class="feature-icon icon2"></div>
+          <h4>实验任务2</h4>
+          <p>
+          	项目日志：<br/>
+          	使用 CSS显示 XML：2016/3/19<br />
+          	<a href="filmXML2.xml" target="_blank">XML页面</a><br />
+          	宣传海报：2016/3/19<br />
+          	<a href="groupInfo.xml" target="_blank">海报</a>
+          	</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="container">
+    <div class="infooter">
+      <p class="copyright">Copyright &copy; 2016.College of Software Engineering Southeast University All rights reserved.</p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">		
+ $(document).ready(function() {
+	$('#simple-menu').sidr({
+	side: 'right'
+});
+});
+$('.responsive-menu-button').sidr({
+	name: 'sidr-main',
+	source: '#navigation',
+	side: 'right'
+
+	});
+$(document).ready(
+function() {
+$("html").niceScroll({cursorborder:"0px solid #fff",cursorwidth:"5px",scrollspeed:"70"});
+}
+);
+</script>
+</body>
+</html>
