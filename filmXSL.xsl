@@ -4,39 +4,70 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<title>两河流域 宣传海报</title>
+				<title>电影数据</title>
+				<style type="text/css">
+						p,hr{
+							line-height:5px;
+						}
+						div{
+							background-image:url('images/background2.jpg');
+							background-repeat:no-repeat;
+							width:554px;
+							height:500px;
+							padding:30px;
+							padding-top:10px;
+							margin:20px;
+							line-height:20px;
+						}
+				</style>
 			</head>
-			<body style="background-image:url('images/bk2.jpg');font-family:Microsoft YaHei">
+			<body>
 				<xsl:apply-templates/>
 			</body>
 		</html>
 	</xsl:template>
-	<xsl:template match="section">
-		<div style="text-align:center">
-		   <h4 style="font-family:'隶书';text-align:center;color:rgb(255,255,255);font-size:3em"><xsl:apply-templates select="groupName"/></h4>
-		   <p style="font-size:20px;">主题：<xsl:apply-templates select="topic"/></p>
-		   <p style="font-size:20px;"><a href="filmXML2.xml">数据展示</a></p>
-	   </div>
-	   <div style="padding-left:240px;padding-right:300px;color:rgb(255,255,255);width:70%;float:center;text-align:center;">
-		   <xsl:apply-templates select="members" />
-	   </div>
-   </xsl:template>
-   
-   <xsl:template match="members">
-   	<p style="font-size:20px">小组成员：</p>
-   	<hr/>
-	   <div style="text-align:center">
-			<xsl:apply-templates select="member[@id='no1']" />
-			<xsl:apply-templates select="member[@id='no2']" />
-			<xsl:apply-templates select="member[@id='no3']" />
-		</div>
-   </xsl:template>
-   
-	<xsl:template match="member">
-		<div style="width:200px;line-height:5px;margin:20px;float:left">
-			<p>姓名：<xsl:value-of select="name"/></p><br />
-			<p>性别：<xsl:value-of select="sex"/></p><br />
-			<p>学号：<xsl:value-of select="number"/></p><br />
+	
+   	<xsl:template match="Film">
+		<div>
+			<p style="text-align:center">片名：<font style="color:red"><xsl:value-of select="title"/></font></p>
+			<hr />
+			<p><b>上映时间：</b><xsl:value-of select="releasedate"/></p>
+			<p><b>国家：</b><xsl:value-of select="country"/></p>
+			<p><b>类型：</b>
+				<xsl:for-each select="type">
+				<xsl:sort select="."/>
+					<xsl:value-of select="."/>
+					<xsl:if test="position()!=last()"> , </xsl:if>
+				</xsl:for-each>
+			</p>
+			<p><b>语种：</b><xsl:value-of select="language"/></p>
+			<p><b>时长：</b><xsl:value-of select="movietime"/></p>
+			<p><b>导演：</b><xsl:value-of select="director"/></p>
+			<p style="line-height:20px"><b>主演：</b>
+				<xsl:for-each select="actor">
+				<xsl:sort select="."/>
+					<xsl:value-of select="."/>
+					<xsl:if test="position()!=last()"> / </xsl:if>
+				</xsl:for-each>
+			</p>
+			<p><b>评分：</b>
+			<xsl:choose>
+				<xsl:when test="score &gt; 8">
+					<font color="red"><xsl:value-of select="score"/></font>
+				</xsl:when>
+				<xsl:when test="score &gt; 6">
+					<font color="green"><xsl:value-of select="score"/></font>
+				</xsl:when>
+				<xsl:when test="score &gt; 4">
+					<font color="black"><xsl:value-of select="score"/></font>
+				</xsl:when>
+				<xsl:otherwise>
+					<font color="gray"><xsl:value-of select="score"/></font>
+				</xsl:otherwise>
+			</xsl:choose>
+			<p><b>下载地址：</b><a href="{@download}"><xsl:value-of select="@download"/></a></p>
+			</p>
+			<p style="line-height:150%"><b>简介：</b><xsl:value-of select="overview"/></p>
 		</div>
    </xsl:template>
 </xsl:stylesheet>
