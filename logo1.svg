@@ -1,0 +1,32 @@
+<svg width="878" height="1341" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <filter height="200%" width="200%" y="-50%" x="-50%" id="blush_blur">
+   <feGaussianBlur stdDeviation="4.8" in="SourceGraphic"/>
+  </filter>
+  <filter id="light_blur">
+   <feGaussianBlur stdDeviation="2.4" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <!-- 星星 -->
+  <path opacity="0.85" id="star" d="m 213.25,137 151,0 l46,-131 l46,131 l151,0l -122,81 46,131 -122,-81 -122,81 l46,-131 -122,-81 l0,0 z" stroke-width="0" stroke="#000" fill="#FFFF91"/>
+  
+  <!-- 红晕 -->
+  <ellipse filter="url(#blush_blur)" ry="15" rx="33" id="blush_left" cy="211.5" cx="344" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#FFAFCC"/>
+  <ellipse filter="url(#blush_blur)" ry="15" rx="33" id="blush_right" cy="211.5" cx="490" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#FFAFCC"/>
+  <ellipse filter="url(#light_blur)" stroke="#000" ry="4" rx="3" id="light-blush-left" cy="212" cx="330" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <ellipse filter="url(#light_blur)" stroke="#000" ry="4" rx="3" id="light-blush-right" cy="212" cx="477" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  
+  <!-- 眼睛 -->
+  <ellipse ry="32" rx="26" id="eye_left" cy="166" cx="354" stroke-opacity="null" stroke-width="6" stroke="#000" fill="#000000"/>
+  <ellipse ry="32" rx="26" id="eye_right" cy="166" cx="461" stroke-opacity="null" stroke-width="6" stroke="#000" fill="#000000"/>
+  
+  <ellipse stroke="#000" ry="14" rx="13" id="light-eye-left" cy="149" cx="342" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  <ellipse stroke="#000" ry="15" rx="15" id="light-eye-right" cy="149" cx="453" stroke-opacity="null" stroke-width="0" fill="#ffffff"/>
+  
+  <!-- 嘴巴 -->
+  <ellipse ry="5.5" rx="14.5" id="mouth" cy="228" cx="406" fill-opacity="null" stroke-opacity="null" stroke-width="2" stroke="#000" fill="none"/>
+  <rect id="yellow" height="14" width="41" y="212" x="387" stroke-width="0" stroke="#000" fill="#FFFF91"/>
+  
+ </g>
+</svg>
